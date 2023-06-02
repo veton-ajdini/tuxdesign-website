@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Karla:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Actor&family=Karla:ital@1&display=swap');
 
 body {
-    background-color: #F5F5F5;
+    background-color: white;
 
     background-image: url(homepage-blob.png);
     background-repeat: no-repeat;
     background-position: 50% 70px;
-    background-size: 1920px 130%;
+    background-size: 1920px 860px;
 }
 
 #topbar {
@@ -19,6 +19,14 @@ body {
     text-align: center;
 }
 
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-scroll {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
 .navbar-page {
     font-family: 'Abel', sans-serif;
     font-size: 40px;
@@ -29,7 +37,7 @@ body {
     padding: 20px;
 }
 
-.overview {
+#overview {
     padding: 60px;
 }
 
@@ -37,6 +45,7 @@ body {
     font-family: 'Abril Fatface', cursive;
     font-size: 70px;
     text-align: left;
+    line-height: normal;
 }
 
 #overview-paragraph {
@@ -48,4 +57,53 @@ body {
 
     position: relative;
     top: 130px;
+}
+
+#vision-title-paragraph {
+    width: 900px;
+    padding: 60px;
+
+    position: relative;
+    top: 200px;
+}
+
+#vision-title {
+    font-family: 'Abril Fatface';
+    font-size: 70px;
+    text-align: left;
+    line-height: 0.75;
+}
+
+#vision-paragraph {
+    font-family: 'Actor', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.25;
+
+    color: #575153;
+}
+
+#mission-title-paragraph {
+    width: 900px;
+    padding: 60px;
+
+    position: relative;
+    top: 200px;
+    left: 30%;
+}
+
+#mission-title {
+    font-family: 'Abril Fatface';
+    font-size: 70px;
+    text-align: right;
+    line-height: 0.75;
+}
+
+#mission-paragraph {
+    font-family: 'Actor', sans-serif;
+    font-size: 40px;
+    text-align: right;
+    line-height: 1.25;
+
+    color: #575153;
 }
