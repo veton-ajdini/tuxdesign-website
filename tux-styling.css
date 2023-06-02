@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Karla:ital@1&display=swap');
 
 body {
     background-color: #F5F5F5;
 
     background-image: url(homepage-blob.png);
     background-repeat: no-repeat;
-    background-position: 50% 50px;
-    background-size: 1920px;
+    background-position: 50% 70px;
+    background-size: 1920px 130%;
 }
 
 #topbar {
@@ -22,8 +22,6 @@ body {
 .navbar-page {
     font-family: 'Abel', sans-serif;
     font-size: 40px;
-    font-weight: 400;
-
     padding: 20px;
 }
 
@@ -31,6 +29,23 @@ body {
     padding: 20px;
 }
 
-#home-background {
-    text-align: center;
+.overview {
+    padding: 60px;
+}
+
+#overview-title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    text-align: left;
+}
+
+#overview-paragraph {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    text-align: right;
+
+    color: #575153;
+
+    position: relative;
+    top: 130px;
 }
