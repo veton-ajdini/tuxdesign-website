@@ -40,72 +40,46 @@ body {
     padding: 20px;
 }
 
-#overview {
-    padding: 60px;
+.text-box-x-spacing {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #overview-title {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
     font-size: 70px;
-    text-align: left;
     line-height: normal;
 }
 
 #overview-paragraph {
     font-family: 'Karla', sans-serif;
     font-size: 40px;
-    text-align: right;
-
     color: #575153;
-
-    position: relative;
-    top: 130px;
-}
-
-#vision-title-paragraph {
-    width: 900px;
-    padding: 60px;
-
-    position: relative;
-    top: 200px;
 }
 
 #vision-title {
     font-family: 'Abril Fatface';
     font-size: 70px;
-    text-align: left;
     line-height: 0.75;
 }
 
 #vision-paragraph {
     font-family: 'Actor', sans-serif;
     font-size: 40px;
-    text-align: left;
     line-height: 1.25;
 
     color: #575153;
 }
 
-#mission-title-paragraph {
-    width: 900px;
-    padding: 60px;
-
-    position: relative;
-    top: 200px;
-    left: 30%;
-}
-
 #mission-title {
     font-family: 'Abril Fatface';
     font-size: 70px;
-    text-align: right;
     line-height: 0.75;
 }
 
 #mission-paragraph {
     font-family: 'Actor', sans-serif;
     font-size: 40px;
-    text-align: right;
     line-height: 1.25;
 
     color: #575153;
