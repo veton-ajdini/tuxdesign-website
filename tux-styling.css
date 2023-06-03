@@ -2,11 +2,18 @@
 
 body {
     background-color: white;
+}
 
+#home-body {
     background-image: url(img/home-bg-blob.svg);
     background-repeat: no-repeat;
     background-position: 50% 50px;
     background-size: 2050px;
+}
+
+#about-body {
+    background: linear-gradient(180deg, white 880px, #F2F2F2 880px);
+    background-repeat: no-repeat;
 }
 
 #topbar {
@@ -63,27 +70,13 @@ body {
     color: #575153;
 }
 
-#vision-title {
+.text-title {
     font-family: 'Abril Fatface';
     font-size: 70px;
     line-height: 0.75;
 }
 
-#vision-paragraph {
-    font-family: 'Actor', sans-serif;
-    font-size: 40px;
-    line-height: 1.25;
-
-    color: #575153;
-}
-
-#mission-title {
-    font-family: 'Abril Fatface';
-    font-size: 70px;
-    line-height: 0.75;
-}
-
-#mission-paragraph {
+.text-paragraph {
     font-family: 'Actor', sans-serif;
     font-size: 40px;
     line-height: 1.25;

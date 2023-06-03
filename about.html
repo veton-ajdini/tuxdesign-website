@@ -12,7 +12,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="about-body">
 
     <!-- Navigation bar on top of the page -->
     <nav class="navbar sticky-top navbar-expand-xl" id="topbar">
@@ -41,49 +41,52 @@
 
     <!-- Overview text box cointaining the title and paragraph in one row -->
     <div class="container">
-        <div class="row text-box-x-spacing">
-            <div class="col">
-                <h1 class="text-start" id="overview-title">
-                    Learn <br>
-                    Experience <br>
-                    Design <br>
-                </h1>
-            </div>
-            <div class="col">
-                <p class="text-end" id="overview-paragraph">
-                    <br>
-                    <br>
-                    A student club for all students who are curious about the UX Design World, who wish to gain
-                    initial experience in the field, create a portfolio and build a network of professionals
-                </p>
-            </div>
-        </div>
 
-        <!-- Vision text box with title and paragraph -->
+        <!-- Who text box with title and paragraph -->
         <div class="row text-start justify-content-start text-box-x-spacing">
             <div class="col-8">
-                <h1 id="vision-title">
-                    Vision
+                <h1 class="text-title">
+                    Who we are
                 </h1>
-                <p id="vision-paragraph">
+                <p class="text-paragraph">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s.
                 </p>
             </div>
         </div>
 
-        <!-- Mission text box with title and paragraph -->
+        <!-- About blob in the middle -->
+        <div class="row text-box-x-spacing">
+            <div class="col text-center">
+                <img src="img/about-blob.svg" alt="About blob">
+            </div>
+        </div>
+
+        <!-- What text box with title and paragraph -->
         <div class="row text-end justify-content-end text-box-x-spacing">
             <div class="col-8">
-                <h1 id="mission-title">
-                    Mission
+                <h1 class="text-title">
+                    What we do
                 </h1>
-                <p id="mission-paragraph">
+                <p class="text-paragraph">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s.
                 </p>
             </div>
         </div>
+
+        <!-- Work in progress statement -->
+        <div class="row text-center text-box-x-spacing">
+            <div class="col">
+                <p>
+                    Designed by Lara Aldulaijan | Implemented by Veton Ajdini
+                </p>
+                <p>
+                    - Work in progess - 
+                </p>
+            </div>
+        </div>
+
     </div>
 
     <!-- JavaScript code for Bootsrap and navbar scrolling transition -->
