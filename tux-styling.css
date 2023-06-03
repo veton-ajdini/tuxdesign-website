@@ -3,10 +3,10 @@
 body {
     background-color: white;
 
-    background-image: url(homepage-blob.png);
+    background-image: url(img/home-bg-blob.svg);
     background-repeat: no-repeat;
-    background-position: 50% 70px;
-    background-size: 1920px 860px;
+    background-position: 50% 50px;
+    background-size: 2050px;
 }
 
 #topbar {
@@ -33,11 +33,17 @@ body {
 .navbar-page {
     font-family: 'Abel', sans-serif;
     font-size: 40px;
-    padding: 20px;
+    width: 200px;
 }
 
 .navbar-logo {
     padding: 20px;
+}
+
+.nav-item .active {
+    background-image: url(img/nav-item-active.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .text-box-x-spacing {
