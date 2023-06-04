@@ -52,6 +52,7 @@ body {
     background-image: url(img/nav-item-active.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-size: 90%;
 }
 
 .text-box-x-spacing {
@@ -83,4 +84,14 @@ body {
     line-height: 1.25;
 
     color: #575153;
+}
+
+.card-text-title {
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+}
+
+.card-text-paraphraph {
+    font-family: 'Actor', sans-serif;
+    font-size: 32px;
 }

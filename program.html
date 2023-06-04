@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TUX Design</title>
+
+    <link rel="stylesheet" href="tux-styling.css">
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body id="program-body">
+
+    <!-- Navigation bar on top of the page -->
+    <nav class="navbar sticky-top navbar-expand-xl" id="topbar">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item navbar-page">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item navbar-page">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item navbar-page">
+                        <a class="nav-link active" aria-current="page" href="program.html">PROGRAM</a>
+                    </li>
+                    <li class="nav-item navbar-page">
+                        <a class="nav-link" href="join.html">JOIN</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand navbar-logo" href="index.html">
+                <img src="img/tux-logo.svg" alt="TUX Logo" width="260" class="d-inline-block align-text-top">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Page content -->
+    <div class="container">
+
+        <div class="row text-box-x-spacing">
+            <div class="col">
+                <h1 class="text-title">
+                    Our 4 functions
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card mx-auto my-4" style="width: 500px; height: 770px; background-color: #F5F5F5;">
+                    <img src="img/card-img-placeholder.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title card-text-title">
+                            Bootcamp
+                        </h5>
+                        <p class="card-text card-text-paraphraph">
+                            Team weekend where you learn all the basics
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mx-auto my-4" style="width: 500px; height: 770px; background-color: #F5F5F5;">
+                    <img src="img/card-img-placeholder.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title card-text-title">
+                            Team meetings
+                        </h5>
+                        <p class="card-text card-text-paraphraph">
+                            Bi-weekly meetings where everyone shares the status of their projects, teams share knowledge
+                            and feedback with each other
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card mx-auto my-4" style="width: 500px; height: 770px; background-color: #F5F5F5;">
+                    <img src="img/card-img-placeholder.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title card-text-title">
+                            Project
+                        </h5>
+                        <p class="card-text card-text-paraphraph">
+                            Each team of 3 people has 1 project per semester, where they work with real life partners such as NGOs or other student clubs
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mx-auto my-4" style="width: 500px; height: 770px; background-color: #F5F5F5;">
+                    <img src="img/card-img-placeholder.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title card-text-title">
+                            Workshop
+                        </h5>
+                        <p class="card-text card-text-paraphraph">
+                            2-3 times a semester, UX Professionals give workshops for all to improve skills and gain further insight into the field
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Work in progress statement -->
+        <div class="row text-center text-box-x-spacing">
+            <div class="col">
+                <p>
+                    Designed by Lara Aldulaijan | Implemented by Veton Ajdini
+                </p>
+                <p>
+                    - Work in progess -
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript code for Bootsrap and navbar scrolling transition -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Navbar scrolling -->
+    <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEl.classList.add('navbar-scroll');
+            } else if (window.scrollY < 56) {
+                navEl.classList.remove('navbar-scroll');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
